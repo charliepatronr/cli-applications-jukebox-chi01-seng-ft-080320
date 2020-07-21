@@ -54,8 +54,6 @@ def run(songs_arr)
     elsif (command == 'play')
       play(songs_arr)
       command = choice
-    elsif (command == 'exit')
-      exit_jukebox
     else 
       puts 'Invalid command'
       help
