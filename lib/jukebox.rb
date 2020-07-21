@@ -60,6 +60,7 @@ def run(songs_arr)
       puts 'Invalid command'
       help
       command = choice
-    end 
+    end
+    exit_jukebox
   end 
 end 
