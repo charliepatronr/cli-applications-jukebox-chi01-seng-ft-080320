@@ -38,7 +38,7 @@ end
 
 def choice
   puts "Please enter a command:"
-  gets.chomp()
+  gets.chomp
 end
 
 def run(songs_arr)
