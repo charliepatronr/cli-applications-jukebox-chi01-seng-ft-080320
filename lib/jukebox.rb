@@ -60,6 +60,5 @@ def run(songs_arr)
       command = choice
     end
   end 
-      exit_jukebox
-
+  exit_jukebox
 end 
